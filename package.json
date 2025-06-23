@@ -1,0 +1,52 @@
+{
+  "name": "@mcp/test-generator-mcp-vitest",
+  "version": "1.0.0",
+  "description": "MCP server for generating Vitest test code based on boundary value analysis and equivalence partitioning",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "test-generator-mcp-vitest": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node -e \"if(process.platform!=='win32'){require('fs').chmodSync('dist/index.js','755')}\"",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "test",
+    "vitest",
+    "boundary-value-analysis",
+    "equivalence-partitioning",
+    "pairwise-testing",
+    "test-generation",
+    "testing-tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyuuki0jp/test-code-generator-mcp.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
