@@ -1,5 +1,5 @@
 {
-  "name": "@mcp/test-generator-mcp-vitest",
+  "name": "@test-generator-mcp-vitest/mcp",
   "version": "1.0.0",
   "description": "MCP server for generating Vitest test code based on boundary value analysis and equivalence partitioning",
   "type": "module",
