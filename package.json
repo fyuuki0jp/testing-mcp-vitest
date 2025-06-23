@@ -1,11 +1,11 @@
 {
-  "name": "@test-generator/mcp-vitest",
+  "name": "testing-mcp-vitest",
   "version": "1.0.0",
   "description": "MCP server for generating Vitest test code based on boundary value analysis and equivalence partitioning",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "mcp-vitest": "./dist/index.js"
+    "testing-mcp-vitest": "./dist/index.js"
   },
   "files": [
     "dist"
@@ -29,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fyuuki0jp/test-code-generator-mcp.git"
+    "url": "https://github.com/fyuuki0jp/testing-mcp-vitest.git"
   },
   "publishConfig": {
     "access": "public",
@@ -47,6 +47,6 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "author": "Your Name",
+  "author": "fyuuki0jp",
   "license": "MIT"
 }
