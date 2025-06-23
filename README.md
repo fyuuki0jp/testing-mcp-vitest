@@ -18,7 +18,7 @@ An MCP server that generates Vitest test code based on boundary value analysis a
 
 ```bash
 # Run directly with npx
-npx @mcp/test-code-generator
+npx @test-generator/mcp-vitest
 
 # Configure Claude Desktop as shown below
 ```
@@ -30,7 +30,7 @@ See [QUICKSTART.md](./QUICKSTART.md) for detailed setup instructions.
 ### Using npx (Recommended)
 
 ```bash
-npx @mcp/test-code-generator
+npx @test-generator/mcp-vitest
 ```
 
 ### Local Installation
