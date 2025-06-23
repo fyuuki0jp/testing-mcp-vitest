@@ -30,7 +30,7 @@ See [QUICKSTART.md](./QUICKSTART.md) for detailed setup instructions.
 ### Using npx (Recommended)
 
 ```bash
-npx @test-generator/mcp-vitest
+npx testing-mcp-vitest
 ```
 
 ### Local Installation
@@ -58,7 +58,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "test-generator": {
       "command": "npx",
-      "args": ["@mcp/test-code-generator"]
+      "args": ["testing-mcp-vitest"]
     }
   }
 }
