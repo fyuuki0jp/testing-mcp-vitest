@@ -1,0 +1,15 @@
+src/
+examples/
+.gitignore
+tsconfig.json
+*.log
+.DS_Store
+.env
+.vscode/
+.idea/
+*.swp
+*.swo
+coverage/
+.nyc_output/
+node_modules/
+CLAUDE.md
