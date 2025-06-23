@@ -12,7 +12,7 @@ jobs:
     
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [18.x, 20.x, 22.x, 24.x]
     
     steps:
     - uses: actions/checkout@v4
@@ -32,9 +32,3 @@ jobs:
     - name: Run tests with coverage
       run: npm run test:coverage
     
-    - name: Upload coverage reports
-      if: matrix.node-version == '20.x'
-      uses: codecov/codecov-action@v3
-      with:
-        directory: ./coverage
-        fail_ci_if_error: true
