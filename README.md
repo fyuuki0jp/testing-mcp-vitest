@@ -18,7 +18,7 @@ An MCP server that generates Vitest test code based on boundary value analysis a
 
 ```bash
 # Run directly with npx
-npx @test-generator/mcp-vitest
+npx testing-mcp-vitest
 
 # Configure Claude Desktop as shown below
 ```
